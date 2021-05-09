@@ -6,7 +6,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     buttonLabel: 'Get Started',
     description: 'We help business owners increase their revenue. Our team of unique specialist can help you acheive your business goals',
-    headLine: 'Lead Generaton Specialist for Online Business',
+    headLine: 'Lead Generation Specialist for Online Business',
     lightText: true,
     topLine: 'Marketing Agency',
     primary: true,
