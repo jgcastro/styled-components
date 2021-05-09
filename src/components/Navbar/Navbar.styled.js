@@ -77,6 +77,7 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
     height: 80px;
     border-bottom: 2px solid transparent;
+    font-size: 1.5rem;
 
     &:hover {
         border-bottom: 2px solid #4b59f7;
