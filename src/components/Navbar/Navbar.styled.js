@@ -9,7 +9,7 @@ export const Navbar = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -37,7 +37,7 @@ export const NavLogo = styled(Link)`
 `
 
 export const NavIcon = styled(FaMagento)`
-    margin-right: 0.5rem;
+    margin-right: 8px;
 `
 
 export const MobileIcon = styled.div`
@@ -49,7 +49,7 @@ export const MobileIcon = styled.div`
         top: 0;
         right: 0;
         transform: translate(-100%, 60%);
-        font-size: 1.8rem;
+        font-size: 2rem;
         cursor: pointer;
     }
 `
