@@ -8,6 +8,7 @@ const Navbar = () => {
     const [ button, setButton ] = useState(true);
 
     const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
 
     const showButton = () => {
         if (window.innerWidth <= 960) {
@@ -26,7 +27,7 @@ const Navbar = () => {
     return (
         <Styled.Navbar>
             <Styled.NavbarContainer>
-                <Styled.NavLogo to='/'>
+                <Styled.NavLogo to='/' onClick={closeMobileMenu}>
                     <Styled.NavIcon />
                     ULTRA
                 </Styled.NavLogo>
